@@ -1,5 +1,12 @@
 $(document).ready(function(){
 
-	$('#animate').fadeIn('slow');
+	$("#animate-nav").fadeIn('slow');
+	$("#animate-home").fadeIn('slow');
+
+
+
+	$("#home").click(function(){
+		alert('home');
+	});
 
 });
