@@ -1,0 +1,91 @@
+ body {
+      font-family: 'Crete Round', serif;
+      line-height: 1.8;
+      
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+
+  .myname{
+
+      color: #0D47A1;
+      font-family: 'Pacifico', cursive;
+
+
+  }
+
+  hr{
+    width: 30%;
+    background: #0D47A1;
+  }
+
+  .@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+ 
+.fa {
+ width: 60px;
+ display: block;
+ text-align: center;
+ color:#990000;
+ font:normal 45px 'FontAwesome';
+ line-height:60px;
+ text-rendering: auto;
+ -webkit-font-smoothing: antialiased;
+}
+.fa-angle-double-down:before {content: "\f103";}
+ 
+.bounce {
+ position: absolute;
+ bottom: 30px;
+ left: 50% ;
+ width: 60px;
+ height: 60px ;
+ margin-left:-30px;
+ border: 2px solid #00BCD4;
+ -webkit-border-radius:30%;
+ -moz-border-radius:30%;
+ -ms-border-radius:30%;
+ border-radius:30%;
+ animation: bounce 1s infinite;
+ -webkit-animation: bounce 1s infinite;
+ -moz-animation: bounce 1s infinite;
+ -o-animation: bounce 1s infinite;
+}
+ 
+@-webkit-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
+ 40% {-webkit-transform: translateY(-30px);}
+ 60% {-webkit-transform: translateY(-15px);}
+}
+ 
