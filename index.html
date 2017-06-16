@@ -13,14 +13,18 @@
   <link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   <script type="text/javascript" src="js/jquery.js"></script>
-  
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+  <script type="text/javascript" src="js/javascript.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+  <script type="text/javascript" src="js/jquery-ui.js"></script>
 
   
 </head>
 
 <body  >
 
-<nav class="navbar navbar-inverse navbar-fixed-top" id="animate-nav" style="display: none;">
+<nav class="navbar navbar-inverse navbar-fixed-top mynavbar" id="animate-nav" style="display: none;">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -33,8 +37,8 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li ><a href="#" id="home">HOME</a></li>
-        <li><a href="#">ABOUT ME</a></li>
-        <li><a href="#">SKILLS</a></li>
+        <li><a href="#about-me">ABOUT ME</a></li>
+        <li><a href="#skill">SKILLS</a></li>
         <li><a href="#">CONTACT ME</a></li>
       </ul>
      
@@ -42,13 +46,17 @@
   </div>
 </nav>
 
-<div class="container-fluid"  id="animate-home"   style="display: none; margin-top: 51px; background-image: url('img//image.jpg'); background-size: cover; height:590px;"  >
+<div class="container-fluid"  id="animate-home"   style="display: none; margin-top: 51px; background-image: url('img//image.jpg'); background-size: cover; height:100vh; background-position: center;"  >
 
 
      <div  style="text-align: center; text-align: center; " ><br><br><br><br><br><br>
            
             <div class="myname">  
-              <h1  ><strong >Jeetesh Gupta</strong></h1><hr>
+              <h1 align="center">Jeetesh
+            <span class="txt-rotate" data-period="500" data-rotate='[ "welcomes you to my Portifolio!","loves to Develope.", "is Game Freak.",  "loves to travel." ]'>
+            </span>
+        </h1>
+      
             </div>
             
             <div class="mycontents" >
@@ -67,6 +75,36 @@
 
 
 
+
+
+
+ <div class="container-fluid img-responsive  "  style="  background-image: url('img//about.jpg'); background-size: cover; height:100vh;" id="about-me"  >
+  <div class="media">
+  	<h2      id="about" >ABOUT ME </h2>
+    <div class="media-left media-top  container">
+      <img src="img/.jpg " class="media-object" style="height:  300px; width: 300px; padding: 50px;" >
+    </div>
+    <div class="media-body " style="margin-top: 60px;padding: 60px; ">
+
+    <div class="container"> 
+      
+    </div>
+    </div>
+  </div>
+  </div>
+
+ 
+  <div class="container-fluid img-responsive " id="skill" style="background-image: url('img/skill.jpg') ;
+  background-size: cover;  height: 100vh;  width: 100%;">
+
+  	<div class="container text-center" style="padding: 60px;">
+
+  		HTML<div id="pbar1" style="height: 40px;"> </div>
+  		
+  	</div>
+
+  	
+  </div>
 
 
     

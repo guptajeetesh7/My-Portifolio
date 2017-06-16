@@ -1,5 +1,5 @@
  body {
-      font-family: 'Crete Round', serif;
+      font-family: 'Playfair Display SC', serif;
       line-height: 1.8;
       
   }
@@ -89,3 +89,24 @@
  60% {-webkit-transform: translateY(-15px);}
 }
  
+
+#about {
+  
+ 
+  color: #212121;
+   text-align: center;
+  padding: 10px;
+   font-family: 'Arvo', serif;
+   font-size: 30px;
+}
+
+
+.back{
+
+  background-image: url('img/skill.jpg');
+  background-size: cover;
+ 
+  height: 100vh;
+  width: 100%;
+}
+
