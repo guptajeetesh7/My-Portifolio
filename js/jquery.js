@@ -3,12 +3,19 @@ $(document).ready(function(){
 	$("#animate-nav").fadeIn(2000);
 	$("#animate-home").fadeIn(2000);
 
+var val = 0;
 
+var interval = setInterval(function(){
 
-$('#pbar1').progressbar({value:20});
+	val = val + 1;
+	$("#html").progressbar({value : 50});
+	  $("#html > div").css({ 'background': '#2196F3' });;
 
-  $("#pbar1").css({ 'background-color': 'white' });
-    $("#pbar1 > div").css({ 'background-color': '#9C27B0' });;
+},50);
+
+  $("#html").css({ 'background-color': 'white' });
+  
 
 	
+
 });
