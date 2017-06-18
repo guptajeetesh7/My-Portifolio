@@ -1,9 +1,20 @@
-$(document).ready(function(){
 
-	$("#animate-nav").fadeIn(2000);
-	$("#animate-home").fadeIn(2000);
+$(window).on('load', function () {
+    
+    $('.preloader').fadeOut(2000);  
+      
 
-	$('.preloader').fadeOut('fast');
+
+
+
+
+
+	$("#animate-nav").fadeIn(3000);
+	$("#animate-home").fadeIn(3000);
+
+
+	
+
 
 var html =0; var css = 0; var bootstrap =0 ; var jq=0; var angular = 0 ; var php = 0;
 

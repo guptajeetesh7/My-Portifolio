@@ -118,15 +118,6 @@
 }
 
 
-#yes{
-  background-image: url('skill.jpg');
-  background-size: cover;
-  background-position: center;
-  width: 100vw;
-  height: 100vh;
-  left: -60px;
-  border-top: 3px solid black;
-}
 
 
 @media screen and (max-width: 400px){
