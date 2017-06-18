@@ -3,6 +3,8 @@ $(document).ready(function(){
 	$("#animate-nav").fadeIn(2000);
 	$("#animate-home").fadeIn(2000);
 
+	$('.preloader').fadeOut('fast');
+
 var html =0; var css = 0; var bootstrap =0 ; var jq=0; var angular = 0 ; var php = 0;
 
 
