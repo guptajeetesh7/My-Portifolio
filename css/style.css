@@ -117,22 +117,32 @@
   overflow: auto;
 }
 
+
 #myimage{
   width: 150px;
-   border: 2px solid black;
+   border: 2px solid #1d53ad;
   height:190px;
 
 }
 
-
 }
+
+@media screen and (min-width: 1000px){
 
 
 #myimage{
-  width: 200px;
-  height: 350px;
-  border: 2px solid black;
+  width: 220px;
+   border: 2px solid #1d53ad;
+  height:300px;
+
 }
+
+
+
+
+}
+
+
 
 
 
