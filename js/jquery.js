@@ -1,161 +1,198 @@
 
-$(window).on('load', function () {
-    
-    $('.preloader').fadeOut();  
-      
+$(document).ready( function () {
 
+var flag = 1 ;
 
+	$(window).scroll(function(){
+
+		var y = $(this).scrollTop();
+
+		var skill_pos = $('#skill').position();
+
+		var container_height = $('#skill').height();
 
 		
 
+		
 
-var html =0; var css = 0; var bootstrap =0 ; var jq=0; var angular = 0 ; var php = 0;
+		var position = skill_pos.top - container_height ;
 
+		console.log(position + "  " + y + "  " + flag);
+//console.log("y= "+ y + "  " +skill_pos.top-container_height-100);
 
-var interval_html = setInterval(function(){
-
-
-	html = html + 1;
-
-	$("#html")
-    .progressbar({ value: html })
-    .children('.ui-progressbar-value')
-    .html(html + '%')
-    .css("display", "block")
-    .css({ 'background-color': '#2196F3' });
-
-    $("#html").css({ 'background-color': 'white' });
+		if((y>= position) && (flag==1) ){
 
 
-	if(html==85){
-		clearInterval(interval_html);
-	}
-	  
+				flag = 0;
 
-},20);
+				//alert(y + "   " + position+ "  " + flag);
+				   
+				var html =0; var css = 0; var bootstrap =0 ; var jq=0; var angular = 0 ; var php = 0;
 
 
 
-var interval_css = setInterval(function(){
+				var interval_html = setInterval(function(){
 
 
-	css = css + 1;
+					html = html + 1;
 
-	$("#css")
-    .progressbar({ value: html })
-    .children('.ui-progressbar-value')
-    .html(css + '%')
-    .css("display", "block")
-    .css({ 'background-color': '#673AB7' });
+					$("#html")
+				    .progressbar({ value: html })
+				    .children('.ui-progressbar-value')
+				    .html(html + '%')
+				    .css("display", "block")
+				    .css({ 'background-color': '#2196F3' });
 
-    $("#html").css({ 'background-color': 'white' });
-
-
-	if(css==65){
-		clearInterval(interval_css);
-	}
-	  
-
-},20);
-  
+				    $("#html").css({ 'background-color': 'white' });
 
 
-var interval_bootstrap = setInterval(function(){
+					if(html==85){
+						clearInterval(interval_html);
+					}
+					  
 
-
-	bootstrap = bootstrap + 1;
-
-	$("#bootstrap")
-    .progressbar({ value: bootstrap})
-    .children('.ui-progressbar-value')
-    .html(bootstrap + '%')
-    .css("display", "block")
-    .css({ 'background-color': '#009688' });
-
-    $("#jquery").css({ 'background-color': 'white' });
-
-
-	if(bootstrap==78){
-		clearInterval(interval_bootstrap);
-	}
-	  
-
-},20);
+				},20);
 
 
 
-var interval_jq = setInterval(function(){
+				var interval_css = setInterval(function(){
 
 
-	jq =jq + 1;
-	
+					css = css + 1;
 
-	$("#jq")
-    .progressbar({ value: jq})
-    .children('.ui-progressbar-value')
-    .html(jq + '%')
-    .css("display", "block")
-    .css({ 'background-color': '#E65100' });
+					$("#css")
+				    .progressbar({ value: html })
+				    .children('.ui-progressbar-value')
+				    .html(css + '%')
+				    .css("display", "block")
+				    .css({ 'background-color': '#673AB7' });
 
-    $("#jquery").css({ 'background-color': 'white' });
-
-
-	if(jq==72){
-		clearInterval(interval_jq);
-	}
-	  
-
-},20);
+				    $("#html").css({ 'background-color': 'white' });
 
 
-var interval_angular = setInterval(function(){
+					if(css==65){
+						clearInterval(interval_css);
+					}
+					  
+
+				},20);
+				  
 
 
-	angular =angular + 1;
-	
-
-	$("#angular")
-    .progressbar({ value: angular})
-    .children('.ui-progressbar-value')
-    .html(angular + '%')
-    .css("display", "block")
-    .css({ 'background-color': '#CDDC39' });
-
-    $("#jquery").css({ 'background-color': 'white' });
+				var interval_bootstrap = setInterval(function(){
 
 
-	if(angular==83){
-		clearInterval(interval_angular);
-	}
-	  
+					bootstrap = bootstrap + 1;
 
-},20);
+					$("#bootstrap")
+				    .progressbar({ value: bootstrap})
+				    .children('.ui-progressbar-value')
+				    .html(bootstrap + '%')
+				    .css("display", "block")
+				    .css({ 'background-color': '#009688' });
 
-
-   
-
-var interval_php = setInterval(function(){
-
-
-	php =php + 1;
-	
-
-	$("#php")
-    .progressbar({ value: php})
-    .children('.ui-progressbar-value')
-    .html(php + '%')
-    .css("display", "block")
-    .css({ 'background-color': '#9E9E9E' });
-
-    $("#jquery").css({ 'background-color': 'white' });
+				    $("#jquery").css({ 'background-color': 'white' });
 
 
-	if(php==85){
-		clearInterval(interval_php);
-	}
-	  
+					if(bootstrap==78){
+						clearInterval(interval_bootstrap);
+					}
+					  
 
-},20);
+				},20);
+
+
+
+				var interval_jq = setInterval(function(){
+
+
+					jq =jq + 1;
+					
+
+					$("#jq")
+				    .progressbar({ value: jq})
+				    .children('.ui-progressbar-value')
+				    .html(jq + '%')
+				    .css("display", "block")
+				    .css({ 'background-color': '#E65100' });
+
+				    $("#jquery").css({ 'background-color': 'white' });
+
+
+					if(jq==72){
+						clearInterval(interval_jq);
+					}
+					  
+
+				},20);
+
+
+				var interval_angular = setInterval(function(){
+
+
+					angular =angular + 1;
+					
+
+					$("#angular")
+				    .progressbar({ value: angular})
+				    .children('.ui-progressbar-value')
+				    .html(angular + '%')
+				    .css("display", "block")
+				    .css({ 'background-color': '#CDDC39' });
+
+				    $("#jquery").css({ 'background-color': 'white' });
+
+
+					if(angular==83){
+						clearInterval(interval_angular);
+					}
+					  
+
+				},20);
+
+
+				   
+
+				var interval_php = setInterval(function(){
+
+
+					php =php + 1;
+					
+
+					$("#php")
+				    .progressbar({ value: php})
+				    .children('.ui-progressbar-value')
+				    .html(php + '%')
+				    .css("display", "block")
+				    .css({ 'background-color': '#9E9E9E' });
+
+				    $("#jquery").css({ 'background-color': 'white' });
+
+
+					if(php==85){
+						clearInterval(interval_php);
+					}
+					  
+
+				},20);
+
+			
+
+					}
+
+
+						
+
+
+
+			});
+
+
+
+
+
+
+
 
   
 
