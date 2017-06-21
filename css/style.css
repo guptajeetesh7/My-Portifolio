@@ -119,8 +119,9 @@
 
 #myimage{
   width: 150px;
-  height: 150px;
-    border:1px solid red;
+   border: 2px solid black;
+  height:190px;
+
 }
 
 
@@ -130,7 +131,7 @@
 #myimage{
   width: 200px;
   height: 350px;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
 
