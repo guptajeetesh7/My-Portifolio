@@ -90,16 +90,6 @@
 }
  
 
-#about {
-  
- 
-  color: #212121;
-   text-align: center;
-  padding: 10px;
-   font-family: 'Arvo', serif;
-   font-size: 30px;
-}
-
 
 .back{
 
@@ -127,9 +117,23 @@
   overflow: auto;
 }
 
+#myimage{
+  width: 150px;
+  height: 150px;
+    border:1px solid red;
+}
 
 
 }
+
+
+#myimage{
+  width: 200px;
+  height: 350px;
+  border: 1px solid black;
+}
+
+
 
 .preloader{
 

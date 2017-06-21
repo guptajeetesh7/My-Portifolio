@@ -17,9 +17,6 @@ var flag = 1 ;
 
 		var position = skill_pos.top - container_height ;
 
-		console.log(position + "  " + y + "  " + flag);
-//console.log("y= "+ y + "  " +skill_pos.top-container_height-100);
-
 		if((y>= position) && (flag==1) ){
 
 
