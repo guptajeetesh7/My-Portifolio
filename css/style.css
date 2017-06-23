@@ -144,11 +144,11 @@
             #bg1{
               
              
-              background-image: url('../img/about.jpg');
-              background-size:450px 1000px ; 
-              background-position:center;
+              min-height:1000px;
+              
+              background-position:initial;
               background-repeat:no-repeat;
-              overflow: auto;
+              overflow: hidden;
 
             }
 
@@ -156,12 +156,11 @@
             #bg2{
               
              
-           
-              background-image: url('../img/education.jpg');
-              background-size:450px 1200px ; 
-              background-position:center;
+              min-height:1100px;
+              
+              background-position:initial;
               background-repeat:no-repeat;
-              overflow: auto;
+              overflow: hidden;
 
             }
 
@@ -169,34 +168,32 @@
             #bg3{
               
              
-             background-image: url('../img/nathan.jpg');
-              background-size:530px 900px ; 
-              background-position:center;
+            
+              min-height:800px;
+              
+              background-position:initial;
               background-repeat:no-repeat;
-              overflow: auto;
+              overflow: hidden;
 
             }
 
               #skill{
-              background-image: url('../img/skill.jpg');
-                 background-size:600px 910px ;  
-              background-position:center;background-repeat:no-repeat;
+              
+              min-height: 900px;
+              overflow:hidden;
+                    
                 
-               font-family: 'Patrick Hand SC', cursive; color: #E0F2F1;
-
-               overflow:auto;
+              
 
                  }
 
 
                     #contact{
-              background-image: url('../img/contact.jpg');
-                 background-size:600px 910px ;  
-              background-position:center;background-repeat:no-repeat;
-                
+              
                font-family: 'Patrick Hand SC', cursive; color: #E0F2F1;
+                 min-height: 1050px;
+               overflow:hidden;
 
-               overflow:auto;
 
                  }
 
