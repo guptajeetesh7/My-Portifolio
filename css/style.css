@@ -236,6 +236,16 @@
 
                  }        
 
+      #home{
+        min-height: 100px;
+      }           
+
+      #arrow{
+        margin-top: 80px;
+        margin-left:45%;
+        position:absolute;
+        
+      }
 }
 
 @media screen and (min-width: 900px){
