@@ -203,6 +203,41 @@
 
 }
 
+
+@media screen and (max-width:700px){
+ 
+  #skill{
+    min-height:900px;
+  }
+
+  #bg1, #bg2 , #bg3{
+    min-height:900px;
+  }
+
+   #myimage{
+             width: 150px;
+               border: 2px solid #FF9800;
+              height:190px;
+            }
+
+    #activity{
+              width: 90px;
+              height:100px;
+              border: 2px solid #009688;
+
+            }       
+
+    #contact{
+              
+               font-family: 'Patrick Hand SC', cursive; color: #E0F2F1;
+                 min-height: 1050px;
+               overflow:hidden;
+
+
+                 }        
+
+}
+
 @media screen and (min-width: 900px){
 
 
