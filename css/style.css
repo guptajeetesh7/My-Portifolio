@@ -236,14 +236,14 @@
 
                  }        
 
-      #home{
-        min-height: 100px;
-      }           
+           
 
+      
       #arrow{
         margin-top: 80px;
-        margin-left:45%;
-        position:absolute;
+        margin-left:auto;
+        position:relative
+       
         
       }
 }
