@@ -144,10 +144,9 @@
             #bg1{
               
              
-              min-height:1000px;
+              min-height:1040px;
               
-              background-position:initial;
-              background-repeat:no-repeat;
+              
               overflow: hidden;
 
             }
@@ -156,7 +155,7 @@
             #bg2{
               
              
-              min-height:1100px;
+              min-height:1040px;
               
               background-position:initial;
               background-repeat:no-repeat;
@@ -169,7 +168,7 @@
               
              
             
-              min-height:800px;
+              min-height:1040px;
               
               background-position:initial;
               background-repeat:no-repeat;
@@ -204,14 +203,15 @@
 }
 
 
-@media screen and (max-width:700px){
+@media screen and (max-width: 700px ) and (min-width: 500px){
  
   #skill{
     min-height:900px;
   }
 
   #bg1, #bg2 , #bg3{
-    min-height:900px;
+    min-height:900px; 
+    max-height: 910px;
   }
 
    #myimage{
