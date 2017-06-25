@@ -34,9 +34,19 @@
       font-size: 12px;
       letter-spacing: 5px;
   }
-  .navbar-nav  li a:hover {
-      color: #1abc9c !important;
-  }
+  
+   .navbar-nav > .active{
+    color: white;
+   
+ }
+  .navbar-nav > .active > a, 
+ .navbar-nav > .active > a:hover, 
+  .navbar-nav > .active > a:focus {
+      color: white;
+      
+ }
+
+
 
   .myname{
 
@@ -141,10 +151,10 @@
 
              
 
-            #bg1{
+            #bg1,#bg2,#bg3{
               
              
-              min-height:1050px;
+              min-height:1070px;
               
               
               overflow: hidden;
@@ -152,29 +162,7 @@
             }
 
 
-            #bg2{
-              
-             
-              min-height:1050px;
-              
-              background-position:initial;
-              background-repeat:no-repeat;
-              overflow: hidden;
-
-            }
-
-
-            #bg3{
-              
-             
             
-              min-height:1050px;
-              
-              background-position:initial;
-              background-repeat:no-repeat;
-              overflow: hidden;
-
-            }
 
               #skill{
               
@@ -206,9 +194,8 @@
 @media screen and (max-width: 700px ) and (min-width: 500px){
 
    #home{
-    min-height:380px;
+    min-height:450px;
   }
- 
  
   #skill{
     min-height:900px;
@@ -251,7 +238,7 @@
        
         
       }
-      
+
 }
 
 @media screen and (min-width: 900px){
@@ -438,3 +425,9 @@
   margin-top: 42px;
 
  }
+
+#carouselButtons {
+    
+    position: absolute;
+    bottom: 0px;
+}

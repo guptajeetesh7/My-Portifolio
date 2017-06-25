@@ -186,10 +186,14 @@ var flag = 1 ;
 
 
 
+	
 
-
-
-
+$('#carousel-play').click(function () {
+    $('#myCarousel').carousel('cycle');
+});
+$('#carousel-pause').click(function () {
+    $('#myCarousel').carousel('pause');
+});
 
   
 
