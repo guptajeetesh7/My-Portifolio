@@ -104,10 +104,10 @@
 .back{
 
   background-image: url('img/skill.jpg');
-  background-size: cover;
- 
-  height: 100vh;
-  width: 100%;
+  background-repeat: no-repeat;
+			background-size: 100% 100%;
+			min-height: 100vh;
+			min-width: 100%;
 }
 
 ​.ui-progressbar-value {
@@ -267,28 +267,32 @@
 
 
             #bg1{
-              background-size: cover;
-              background-image: url('../img/about.jpg');
-              background-size: cover; background-position:center;background-repeat:no-repeat;
-               height: 100vh; width: 100%;
-
+             background-image: url('../img/about.jpg');
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			min-height: 100vh;
+			min-width: 100%;
             }
 
 
             #bg2{
-              background-size: cover;
+              
               background-image: url('../img/education.jpg');
-              background-size: cover; background-position:center;background-repeat:no-repeat;
-               height: 100vh; width: 100%;
+              background-repeat: no-repeat;
+			background-size: 100% 100%;
+			min-height: 100vh;
+			min-width: 100%;
 
             }
 
 
             #bg3{
-              background-size: cover;
+              
               background-image: url('../img/nathan.jpg');
-              background-size: cover; background-position:center;background-repeat:no-repeat;
-               height: 100vh; width: 100%;
+              background-repeat: no-repeat;
+			background-size: 100% 100%;
+			min-height: 100vh;
+			min-width: 100%;
 
             }
 
@@ -296,8 +300,10 @@
           
    #skill{
               background-image: url('../img/skill.jpg');
-              background-size: cover; background-position:center;background-repeat:no-repeat;
-               height: 100vh; width: 100vw; 
+             background-repeat: no-repeat;
+			background-size: 100% 100%;
+			min-height: 100vh;
+			min-width: 100%; 
                font-family: 'Patrick Hand SC', cursive; color: #E0F2F1;
             }
 
@@ -305,10 +311,12 @@
 
 
             #contact{
-              background-size: cover;
+              
               background-image: url('../img/contact.jpg');
-              background-size: cover; background-position:center;background-repeat:no-repeat;
-               height: 100vh; width: 100%;
+              background-repeat: no-repeat;
+			background-size: 100% 100%;
+			min-height: 100vh;
+			min-width: 100%;
                font-family: 'Dancing Script', cursive;
 
             }
